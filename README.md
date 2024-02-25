@@ -23,3 +23,16 @@
 -   所有“动作”都支持通过命令实现，就像 vscode 一样
 -   所有快捷键都支持自定义（就像 vscode 一样）
 -   对样式进行分级处理，通过提供格式化的层级。这样就不用像 OneNote 一样，按下 ctrl+shift+n 时所有样式都消失了。这也是为什么 OneNote 支持类 Latex 功能，但我不怎么用，因为易丢失+难迁移！
+
+
+---
+
+```
+> Example line for prompt.
+{: .prompt-info }
+```
+上面这种处理方式一般，我更希望能够是这样的：
+```
+> :::info
+> Example line for prompt.
+```
